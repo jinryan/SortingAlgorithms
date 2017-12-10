@@ -67,6 +67,7 @@ void insertionSort(int array[], int size) {
 		}
 	}
 	outputArray(array, size);
+	return;
 }
 
 // Not so important stuff
@@ -79,40 +80,3 @@ void outputArray(int array[], int size) {
 	cout << endl;
 	return;
 }
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-int main() {
-	// Array review
-	vector <int> a;
-	vector <int>::iterator c1_iterator;
-	a.push_back(3);
-	a.push_back(4);
-	a.push_back(5);
-	c1_iterator = a.begin();
-	for (; c1_iterator != a.end(); c1_iterator++) {
-		cout << " " << *c1_iterator;
-	}
-	cout << endl;
-	int b[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
-	int *beginning = &b[0];
-	for (; *beginning != b[9]; beginning++) {
-		cout << " " << *beginning;
-	}
-
-	cout << endl;
-
-	return 0;
-}
-
-*/
